@@ -4,7 +4,7 @@ body{
 
 }
 :root{
-    --primary-color:#60A5FA;
+    --primary-color:#88b4e9;
     --my-color:#6B7280;
     --ow-color:#9CA3AF;
 }
@@ -37,14 +37,19 @@ body{
 
 .navigation {
     background-color: var(--primary-color);
-    border-bottom-left-radius: 1rem;
+    border-radius: 2rem;
+    height: 75px;
 }
-
-.navigation .nav-pills {
-    text-align: right;
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 1rem;
+}    
 }
 .navigation .nav-brand {
-    font-weight: bold
+    font-weight: bold;
+    text-align: center;
+
 
 }
 .navigation .link-active{
